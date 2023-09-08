@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
               "Can Enter",
               style: TextStyle(
                   fontSize: 30,
-                  color: Colors.white,
+                  color: Colors.black,
                   fontWeight: FontWeight.w800),
             ),
             const Padding(
@@ -59,14 +59,12 @@ class HomePage extends StatelessWidget {
               child: Text(
                 "0",
                 style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.white,
+                    fontSize: 35,
+                    color: Colors.black,
                     fontWeight: FontWeight.w800),
               ),
             ),
-            const SizedBox(
-              width: 32,
-            ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -84,11 +82,13 @@ class HomePage extends StatelessWidget {
                     "Left",
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 30,
+                      fontSize: 22,
                     ),
                   ),
                 ),
-
+                const SizedBox(
+                  width: 32,
+                ),
                 TextButton(
                   onPressed: increment,
                   style: TextButton.styleFrom(
@@ -103,7 +103,7 @@ class HomePage extends StatelessWidget {
                     "Entered",
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 30,
+                      fontSize: 22,
                     ),
                   ),
                 ),
