@@ -1,16 +1,11 @@
-# peoplecounterapp
+# People Counter App
+<hr>
 
-A people counter app
+The 'People Counter App' is an application that can be used to control the total number of people inside a given establishment, notifying you when the maximum number of people in the place is exceeded.
 
-## Getting Started
+|                                      |                                                                    |
+|--------------------------------------|--------------------------------------------------------------------|
+| The App...                           | counts the number of people entering and leaving an establishment. |
+| To...                                | control the total number of people, respecting the law of places that still suffer from COVID 19 |
+| It was created with the Framework... | Flutter |
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
